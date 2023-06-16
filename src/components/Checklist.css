@@ -1,0 +1,28 @@
+.checklist_container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3%;
+    font-size: 20px;
+    width: 100%;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc; /* This adds a line between the rows */
+    padding: 20px 0;
+}
+
+.form-check-label {
+    margin-left: 20px;
+}
+
+.form-check-input {
+    transform: scale(1.3);
+}
+
+.trash {
+    margin-left: auto;
+    cursor: pointer;
+}
